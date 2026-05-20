@@ -1022,7 +1022,7 @@ for(spp in top_spp) {
 for(spp in top_spp) {
   
   #some figure names  
-  title_df <- spp_names_df %>% dplyr::filter(spp_name == spp) 
+  title_df <- spp_names_df %>% dplyr::filter(spp == spp) 
   title_name <- as.character(title_df$full_name)
   
   # blank plot with only the title text
