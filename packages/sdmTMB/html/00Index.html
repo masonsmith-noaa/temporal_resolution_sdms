@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: Spatial and Spatiotemporal SPDE-Based GLMMs with 'TMB'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> Spatial and Spatiotemporal SPDE-Based GLMMs with 'TMB'
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;sdmTMB&rsquo; version 0.7.0.9005</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../NEWS.md">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="add_utm_columns.html">add_utm_columns</a></td>
+<td>Add UTM coordinates to a data frame</td></tr>
+<tr><td style="width: 25%;"><a href="cAIC.html">cAIC</a></td>
+<td>Calculate conditional AIC</td></tr>
+<tr><td style="width: 25%;"><a href="coef.sdmTMB.html">coef.sdmTMB</a></td>
+<td>Get fixed-effect coefficients</td></tr>
+<tr><td style="width: 25%;"><a href="dharma_residuals.html">dharma_residuals</a></td>
+<td>DHARMa residuals</td></tr>
+<tr><td style="width: 25%;"><a href="surveydata.html">dogfish</a></td>
+<td>Example fish survey data</td></tr>
+<tr><td style="width: 25%;"><a href="Effect.sdmTMB.html">Effect.sdmTMB</a></td>
+<td>Calculate effects</td></tr>
+<tr><td style="width: 25%;"><a href="emmeans.sdmTMB.html">emmeans.sdmTMB</a></td>
+<td>Estimated marginal means with the 'emmeans' package with 'sdmTMB'</td></tr>
+<tr><td style="width: 25%;"><a href="priors.html">gamma_cv</a></td>
+<td>Prior distributions</td></tr>
+<tr><td style="width: 25%;"><a href="gather_sims.html">gather_sims</a></td>
+<td>Extract parameter simulations from the joint precision matrix</td></tr>
+<tr><td style="width: 25%;"><a href="get_index.html">get_cog</a></td>
+<td>Extract a relative biomass/abundance index, center of gravity, or effective area occupied</td></tr>
+<tr><td style="width: 25%;"><a href="add_utm_columns.html">get_crs</a></td>
+<td>Add UTM coordinates to a data frame</td></tr>
+<tr><td style="width: 25%;"><a href="get_index.html">get_eao</a></td>
+<td>Extract a relative biomass/abundance index, center of gravity, or effective area occupied</td></tr>
+<tr><td style="width: 25%;"><a href="get_index.html">get_index</a></td>
+<td>Extract a relative biomass/abundance index, center of gravity, or effective area occupied</td></tr>
+<tr><td style="width: 25%;"><a href="get_index_sims.html">get_index_sims</a></td>
+<td>Calculate a population index via simulation from the joint precision matrix</td></tr>
+<tr><td style="width: 25%;"><a href="get_index.html">get_index_split</a></td>
+<td>Extract a relative biomass/abundance index, center of gravity, or effective area occupied</td></tr>
+<tr><td style="width: 25%;"><a href="get_pars.html">get_pars</a></td>
+<td>Get TMB parameter list</td></tr>
+<tr><td style="width: 25%;"><a href="priors.html">halfnormal</a></td>
+<td>Prior distributions</td></tr>
+<tr><td style="width: 25%;"><a href="surveydata.html">hbll_s_grid</a></td>
+<td>Example fish survey data</td></tr>
+<tr><td style="width: 25%;"><a href="make_mesh.html">make_mesh</a></td>
+<td>Construct an SPDE mesh for sdmTMB</td></tr>
+<tr><td style="width: 25%;"><a href="priors.html">mvnormal</a></td>
+<td>Prior distributions</td></tr>
+<tr><td style="width: 25%;"><a href="priors.html">normal</a></td>
+<td>Prior distributions</td></tr>
+<tr><td style="width: 25%;"><a href="surveydata.html">pcod</a></td>
+<td>Example fish survey data</td></tr>
+<tr><td style="width: 25%;"><a href="surveydata.html">pcod_2011</a></td>
+<td>Example fish survey data</td></tr>
+<tr><td style="width: 25%;"><a href="surveydata.html">pcod_mesh_2011</a></td>
+<td>Example fish survey data</td></tr>
+<tr><td style="width: 25%;"><a href="priors.html">pc_matern</a></td>
+<td>Prior distributions</td></tr>
+<tr><td style="width: 25%;"><a href="make_mesh.html">plot.sdmTMBmesh</a></td>
+<td>Construct an SPDE mesh for sdmTMB</td></tr>
+<tr><td style="width: 25%;"><a href="plot_anisotropy.html">plot_anisotropy</a></td>
+<td>Plot anisotropy from an sdmTMB model</td></tr>
+<tr><td style="width: 25%;"><a href="plot_anisotropy.html">plot_anisotropy2</a></td>
+<td>Plot anisotropy from an sdmTMB model</td></tr>
+<tr><td style="width: 25%;"><a href="plot_pc_matern.html">plot_pc_matern</a></td>
+<td>Plot PC Matérn priors</td></tr>
+<tr><td style="width: 25%;"><a href="plot_smooth.html">plot_smooth</a></td>
+<td>Plot a smooth term from an sdmTMB model</td></tr>
+<tr><td style="width: 25%;"><a href="predict.sdmTMB.html">predict.sdmTMB</a></td>
+<td>Predict from an sdmTMB model</td></tr>
+<tr><td style="width: 25%;"><a href="project.html">project</a></td>
+<td>Project from an 'sdmTMB' model using simulation</td></tr>
+<tr><td style="width: 25%;"><a href="surveydata.html">qcs_grid</a></td>
+<td>Example fish survey data</td></tr>
+<tr><td style="width: 25%;"><a href="replicate_df.html">replicate_df</a></td>
+<td>Replicate a prediction data frame over time</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.sdmTMB.html">residuals.sdmTMB</a></td>
+<td>Residuals method for sdmTMB models</td></tr>
+<tr><td style="width: 25%;"><a href="run_extra_optimization.html">run_extra_optimization</a></td>
+<td>Run extra optimization on an already fitted object</td></tr>
+<tr><td style="width: 25%;"><a href="sanity.html">sanity</a></td>
+<td>Sanity check of an sdmTMB model</td></tr>
+<tr><td style="width: 25%;"><a href="sdmTMB.html">sdmTMB</a></td>
+<td>Fit a spatial or spatiotemporal GLMM with TMB</td></tr>
+<tr><td style="width: 25%;"><a href="sdmTMBcontrol.html">sdmTMBcontrol</a></td>
+<td>Optimization control options</td></tr>
+<tr><td style="width: 25%;"><a href="priors.html">sdmTMBpriors</a></td>
+<td>Prior distributions</td></tr>
+<tr><td style="width: 25%;"><a href="sdmTMB_cv.html">sdmTMB_cv</a></td>
+<td>Cross validation with sdmTMB models</td></tr>
+<tr><td style="width: 25%;"><a href="sdmTMB_simulate.html">sdmTMB_simulate</a></td>
+<td>Simulate from a spatial/spatiotemporal model</td></tr>
+<tr><td style="width: 25%;"><a href="sdmTMB_stacking.html">sdmTMB_stacking</a></td>
+<td>Perform stacking with log scores on 'sdmTMB_cv()' output</td></tr>
+<tr><td style="width: 25%;"><a href="set_delta_model.html">set_delta_model</a></td>
+<td>Set delta model for 'ggeffects::ggpredict()'</td></tr>
+<tr><td style="width: 25%;"><a href="simulate.sdmTMB.html">simulate.sdmTMB</a></td>
+<td>Simulate from a fitted sdmTMB model</td></tr>
+<tr><td style="width: 25%;"><a href="gather_sims.html">spread_sims</a></td>
+<td>Extract parameter simulations from the joint precision matrix</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.sdmTMB.html">tidy.sdmTMB</a></td>
+<td>Turn sdmTMB model output into a tidy data frame</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.sdmTMB.html">tidy.sdmTMB_cv</a></td>
+<td>Turn sdmTMB model output into a tidy data frame</td></tr>
+<tr><td style="width: 25%;"><a href="visreg_delta.html">visreg2d_delta</a></td>
+<td>Plot sdmTMB models with the 'visreg' package</td></tr>
+<tr><td style="width: 25%;"><a href="visreg_delta.html">visreg_delta</a></td>
+<td>Plot sdmTMB models with the 'visreg' package</td></tr>
+<tr><td style="width: 25%;"><a href="surveydata.html">wcvi_grid</a></td>
+<td>Example fish survey data</td></tr>
+<tr><td style="width: 25%;"><a href="surveydata.html">yelloweye</a></td>
+<td>Example fish survey data</td></tr>
+</table>
+</div></body></html>

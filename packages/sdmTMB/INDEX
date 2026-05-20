@@ -1,0 +1,38 @@
+Effect.sdmTMB           Calculate effects
+add_utm_columns         Add UTM coordinates to a data frame
+cAIC                    Calculate conditional AIC
+coef.sdmTMB             Get fixed-effect coefficients
+dharma_residuals        DHARMa residuals
+emmeans.sdmTMB          Estimated marginal means with the 'emmeans'
+                        package with 'sdmTMB'
+get_index               Extract a relative biomass/abundance index,
+                        center of gravity, or effective area occupied
+get_index_sims          Calculate a population index via simulation
+                        from the joint precision matrix
+get_pars                Get TMB parameter list
+make_mesh               Construct an SPDE mesh for sdmTMB
+pcod                    Example fish survey data
+plot_anisotropy         Plot anisotropy from an sdmTMB model
+plot_pc_matern          Plot PC Matérn priors
+plot_smooth             Plot a smooth term from an sdmTMB model
+predict.sdmTMB          Predict from an sdmTMB model
+project                 Project from an 'sdmTMB' model using simulation
+replicate_df            Replicate a prediction data frame over time
+residuals.sdmTMB        Residuals method for sdmTMB models
+run_extra_optimization
+                        Run extra optimization on an already fitted
+                        object
+sanity                  Sanity check of an sdmTMB model
+sdmTMB                  Fit a spatial or spatiotemporal GLMM with TMB
+sdmTMB_cv               Cross validation with sdmTMB models
+sdmTMB_simulate         Simulate from a spatial/spatiotemporal model
+sdmTMB_stacking         Perform stacking with log scores on
+                        'sdmTMB_cv()' output
+sdmTMBcontrol           Optimization control options
+sdmTMBpriors            Prior distributions
+set_delta_model         Set delta model for 'ggeffects::ggpredict()'
+simulate.sdmTMB         Simulate from a fitted sdmTMB model
+spread_sims             Extract parameter simulations from the joint
+                        precision matrix
+tidy.sdmTMB             Turn sdmTMB model output into a tidy data frame
+visreg_delta            Plot sdmTMB models with the 'visreg' package
