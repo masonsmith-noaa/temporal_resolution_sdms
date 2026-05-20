@@ -1,8 +1,7 @@
 rm(list=ls(all=TRUE))
 
 # load packages
-required_packages <- c("sdmTMB","Matrix","TMB","fmesher","dplyr","mgcv","stats","tidyverse","data.table", 
-                       "stringr","ggpubr","terra","tidyterra","RColorBrewer","patchwork","visreg")
+required_packages <- c("Matrix","TMB","sdmTMB","fmesher","dplyr","mgcv","stats","tidyverse","data.table","stringr")
 lapply(required_packages, library, character.only = TRUE)
 
 #set parameters
