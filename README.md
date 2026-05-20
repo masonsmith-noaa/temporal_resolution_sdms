@@ -1,4 +1,4 @@
-This repository includes the data and code for running the scripts in: "Effects of temporal resolution on forecasting species distributions under varying conditions." To run all scripts, unzip this folder to a permanent location and create a new R Project out of this folder. In RStudio, this can be done through Project > New Project > Existing Directory > Browse to Folder > Open. The code will now draw from all folders within the source folder.
+This repository includes the data and code for running the scripts in: "Effects of temporal resolution on forecasting species distributions under varying conditions." To reproduce this study, first unzip this folder to a permanent location and create a new R Project out of this folder. In RStudio, this can be done through Project > New Project > Existing Directory > Browse to Folder > Open. The code will now draw from all folders within the source folder. Run each script in order (1-5). 
 
 Files and variables
 
@@ -18,19 +18,23 @@ File: species_models folder
 
 Description: This folder serves as storage for all models saved in 'model_runs.R'.
 
-File: model_runs.R
+File: 1_install_packages.R
+
+Description: This script installs all packages required to run scripts 2-5.
+
+File: 2_model_runs.R
 
 Description: This script runs the spatiotemporal models for each temporal resolution (annual, timestep, long-term mean, and static). Each model will be saved under the 'species_models' subfolder. Sanity checks from sdmTMB will additionally be saved under the 'sanity_tables' subfolder.
 
-File: retrospective_forecasts.R
+File: 3_retrospective_forecasts.R
 
 Description: This script runs the retrospective forecasts for each temporal resolution (annual, timestep, long-term mean, and static) and saves a final dataframe under the 'data' subfolder.
 
-File: create_tables.R
+File: 4_create_tables.R
 
 Description: This script creates tables S1 (Matérn range estimates), S2 (sanity check results), and S3 (model fit summaries) of the supplemental appendix.
 
-File: create_figures.R
+File: 5_create_figures.R
 
 Description: This script creates figures 3 (maximum Cohen's q comparisons), 4 (Spearman's rho of retrospective forecasts), 5 (Pairwise differences in Fisher’s-standardized forecast skill), 6 (Spatial agreement of core habitat predictions among temporal resolutions), and 7 (Predicted spatial agreement of core habitat) of the main text; and figures S1 (spatial mesh configuration), S2 (Conditional response plots), S3 (Spearman’s rho of retrospective forecasts), and S4 (Predicted area of 50th percentile in abundance among the four temporal resolutions) of the supplemental appendix.
 
