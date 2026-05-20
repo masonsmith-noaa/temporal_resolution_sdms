@@ -1,32 +1,15 @@
-
-
-
-
-
 rm(list=ls(all=TRUE))
 
-# install any missing required packages and load libraries
-required_packages <- c(
-  "Matrix", "TMB", "sdmTMB", "fmesher", "sdmTMBextra", 
-  "dplyr", "mgcv", "stats", "tidyverse", "data.table", "stringr"
-)
-
-missing_packages <- required_packages[!(required_packages %in% installed.packages()[, "Package"])]
-
-if (length(missing_packages) > 0) {
-  install.packages(missing_packages, dependencies = TRUE)
-}
-
+# load packages
+required_packages <- c("sdmTMB","Matrix","TMB","fmesher","dplyr","mgcv","stats","tidyverse","data.table", 
+                       "stringr","ggpubr","terra","tidyterra","RColorBrewer","patchwork","visreg")
 lapply(required_packages, library, character.only = TRUE)
-
 
 #set parameters
 region.name = "EBS"
 
-
 #load catch data ==============================================================================
 region.data <- read.csv("data/region.data.csv", sep=",", header=TRUE)
-
 
 ########################################################
 #filter top frequently occurring species 

@@ -2,9 +2,6 @@ rm(list=ls(all=TRUE))
 
 # install any missing required packages and load libraries
 required_packages <- c("sdmTMB", "mgcv", "tidyverse", "data.table")
-missing_packages <- required_packages[!(required_packages %in% installed.packages()[, "Package"])]
-if (length(missing_packages) > 0) {
-  install.packages(missing_packages, dependencies = TRUE)}
 lapply(required_packages, library, character.only = TRUE)
 
 #set parameters

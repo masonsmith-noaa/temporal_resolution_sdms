@@ -2,11 +2,7 @@ rm(list=ls(all=TRUE))
 
 #libraries
 required_packages <- c("sdmTMB", "ggpubr", "mgcv", "stats", "terra", "tidyterra", 
-  "RColorBrewer", "tidyverse", "data.table", "patchwork", "visreg")
-
-missing_packages <- required_packages[!(required_packages %in% installed.packages()[, "Package"])]
-if (length(missing_packages) > 0) {
-  install.packages(missing_packages, dependencies = TRUE)}
+                       "RColorBrewer", "tidyverse", "data.table", "patchwork", "visreg")
 lapply(required_packages, library, character.only = TRUE)
 
 #set region
