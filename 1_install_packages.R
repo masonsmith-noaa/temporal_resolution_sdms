@@ -13,28 +13,27 @@ if (length(missing_packages) > 0) {
 
 
 
+
 #install specific sdmTMB version used (sensitive to version)
 
-# 1. Unload the packages from memory so Windows releases the .dll files
+# unload the packages from memory for clean install
 try(detach("package:sdmTMB", unload = TRUE), silent = TRUE)
 try(unloadNamespace("sdmTMB"), silent = TRUE)
 
-# 2. Run the copy script again
-zip_file <- "./packages.zip"
-temp_unzip_dir <- "./temp_packages_extracted"
+# install
+unzipped_dir <- "./packages"
 
-if (file.exists(zip_file)) {
-  unzip(zipfile = zip_file, exdir = temp_unzip_dir)
+if (dir.exists(unzipped_dir)) {
   target_library <- .libPaths()[1]
-  package_folders <- list.dirs(temp_unzip_dir, full.names = TRUE, recursive = FALSE)
+  package_folders <- list.dirs(unzipped_dir, full.names = TRUE, recursive = FALSE)
   
+  # get nested packages
   if (length(package_folders) == 1 && !(basename(package_folders) %in% c("sdmTMB"))) {
     package_folders <- list.dirs(package_folders, full.names = TRUE, recursive = FALSE)
   }
   
+  # copies the package into your active R library
   for (folder in package_folders) {
     file.copy(from = folder, to = target_library, recursive = TRUE, overwrite = TRUE)
   }
-  
-  unlink(temp_unzip_dir, recursive = TRUE)
 }

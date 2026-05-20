@@ -48,10 +48,11 @@ mesh$mesh$n
 ########################################################
 #run models 
 ########################################################
+
+#***Note: this loop takes several hours to run.
+
 for(spp in top_spp) {
-  
-  sanity_results[[spp]] <- list() 
-  
+  message("  -> Running null model...")
   #null----------------------------------------------------------------------------
   tmb.form.null <- formula(paste0(spp, " ~ 1"))
 
@@ -68,7 +69,7 @@ for(spp in top_spp) {
 
   
   #annual----------------------------------------------------------------------------
-
+  message("  -> Running annual model...")
   tmb.form.annual <- formula(paste0(spp, " ~ s(bdepth_scaled, bs='tp', m=1, k=7) +
                                                s(bcurrentU_scaled, bcurrentV_scaled, bs='tp', m=1, k=7) +
                                                s(btemp_scaled, bs='tp', m=1, k=7) +
@@ -91,6 +92,7 @@ for(spp in top_spp) {
 
 
   # 5-year timestep-------------------------------------------------------------------
+  message("  -> Running 5-year timestep model...")
   tmb.form.timestep <- formula(paste0(spp, " ~ s(bdepth_scaled, bs='tp', m=1, k=7) +
                                                s(bcurrentU_timestep_scaled, bcurrentV_timestep_scaled, bs='tp', m=1, k=7) +
                                                s(btemp_timestep_scaled, bs='tp', m=1, k=7) +
@@ -114,6 +116,7 @@ for(spp in top_spp) {
 
 
   # LTM-------------------------------------------------------------------------------
+  message("  -> Running LTM model...")
   tmb.form.ltm <- formula(paste0(spp, " ~  s(bdepth_scaled, bs='tp', m=1, k=7) +
                                              s(bcurrentU_ltm_scaled, bcurrentV_ltm_scaled, bs='tp', m=1, k=7) +
                                              s(btemp_ltm_scaled, bs='tp', m=1, k=7)"))
@@ -135,6 +138,7 @@ for(spp in top_spp) {
 
 
   # LTM_static-------------------------------------------------------------------------------
+  message("  -> Running LTM static model...")
   tmb.form.ltm_static <- formula(paste0(spp, " ~  s(bdepth_scaled, bs='tp', m=1, k=7) +
                                            s(bcurrentU_ltm_scaled, bcurrentV_ltm_scaled, bs='tp', m=1, k=7) +
                                            s(btemp_ltm_scaled, bs='tp', m=1, k=7)"))
