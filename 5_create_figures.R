@@ -398,17 +398,20 @@ for(j in c(1986:2019, 2021:2023)){
 rm(list=ls(pattern = "predictions.tmb."))
 rm(list=ls(pattern = "N.model_"))
 
-### # predictions --- (only need to run once) ----
-for(spp in diff_spp) {
-  for(step in c("annual", "timestep", "ltm", "ltm_static")){
-    for(j in c(2009:2019, 2021:2023)){
-      N.model = readRDS(paste0("species_models/tmb_ar1_60_tw_m1/tmb.fit.ebs.", step, "_", spp, ".rds"))
-      pred.grid = get(paste0("grid_", j))
-      pred <- stats::predict(N.model, type="response", newdata=pred.grid)
-      saveRDS(pred, paste0("data/predictions/predictions.tmb.", step, "_", spp, "_", j, ".rds"))
-      assign(paste0("predictions.tmb.", step, "_", spp, "_", j), pred)
+### # predictions --- 
 
-    }}}
+#***Note: this only needs to be run once. To run again, un-comment the following lines. This will likely take several hours. 
+
+# for(spp in diff_spp) {
+#   for(step in c("annual", "timestep", "ltm", "ltm_static")){
+#     for(j in c(2009:2019, 2021:2023)){
+#       N.model = readRDS(paste0("species_models/tmb_ar1_60_tw_m1/tmb.fit.ebs.", step, "_", spp, ".rds"))
+#       pred.grid = get(paste0("grid_", j))
+#       pred <- stats::predict(N.model, type="response", newdata=pred.grid)
+#       saveRDS(pred, paste0("data/predictions/predictions.tmb.", step, "_", spp, "_", j, ".rds"))
+#       assign(paste0("predictions.tmb.", step, "_", spp, "_", j), pred)
+# 
+#     }}}
 
 rm(list=ls(pattern = "rast1"))
 rm(list=ls(pattern = "rast_"))
