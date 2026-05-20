@@ -1,0 +1,91 @@
+"","term","measure","description","species","full_name","annual","timestep","ltm","ltm_static"
+"1","sds(bdepth_scaled)","SD","effect of smooth","a_poll","Adult Pollock",1.3813134389921,1.4436819974915,1.23728370260475,0.865016982475141
+"2","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","a_poll","Adult Pollock",0.582623486267035,1.67498567144632,1.61973958172044,1.16742706299141
+"3","sds(btemp_scaled)","SD","effect of smooth","a_poll","Adult Pollock",1.76408280807613,1.30546876277637,1.20517008187138,0.881971352182662
+"4","sigma_O","SD","spatial random effect","a_poll","Adult Pollock",1.40671327053976,1.34325910320725,1.86325139041672,8.48298807287891
+"5","sigma_E","SD","AR1 random effect","a_poll","Adult Pollock",1.2582103375038,1.48940965017792,1.61658694423101,NA
+"6","sigma_Z","SD","variation of SVC","a_poll","Adult Pollock",0.415421199878535,0.000376429345301002,NA,NA
+"7","sds(bdepth_scaled)","SD","effect of smooth","j_pcod","Juv. Pacific Cod",0.836033114451929,0.777185558865269,0.755567185169894,0.601996474731034
+"8","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","j_pcod","Juv. Pacific Cod",1.5969216311638,1.56770991194978,2.214191425256,2.68449320812868
+"9","sds(btemp_scaled)","SD","effect of smooth","j_pcod","Juv. Pacific Cod",1.498827427315,1.23354608065633,0.996651888144031,0.905509629570465
+"10","sigma_O","SD","spatial random effect","j_pcod","Juv. Pacific Cod",1.85667416864632,1.64393568530343,1.45496586287679,3.72481823915235
+"11","sigma_E","SD","AR1 random effect","j_pcod","Juv. Pacific Cod",1.13815122479029,1.21882388627423,1.2510017538673,NA
+"12","sigma_Z","SD","variation of SVC","j_pcod","Juv. Pacific Cod",0.438575778149112,0.136783380585612,NA,NA
+"13","sds(bdepth_scaled)","SD","effect of smooth","a_pcod","Adult Pacific Cod",0.397455157621064,0.36649746607484,0.49695413406518,0.317822901371143
+"14","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","a_pcod","Adult Pacific Cod",1.19499672361498,1.1254480383858,0.973123127195789,0.771674244336929
+"15","sds(btemp_scaled)","SD","effect of smooth","a_pcod","Adult Pacific Cod",4.11668516480385,0.980376385297785,0.908794361265675,0.826610151314482
+"16","sigma_O","SD","spatial random effect","a_pcod","Adult Pacific Cod",0.584464442978793,0.536030798747419,0.604808660972221,1.29540322568454
+"17","sigma_E","SD","AR1 random effect","a_pcod","Adult Pacific Cod",0.829205049840441,0.859299325616413,0.891921291879554,NA
+"18","sigma_Z","SD","variation of SVC","a_pcod","Adult Pacific Cod",0.321073763808824,0.000173874850119677,NA,NA
+"19","sds(bdepth_scaled)","SD","effect of smooth","snow","Snow Crab",1.47408633853671,1.12371124150082,0.64983963275281,1.40449917901876
+"20","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","snow","Snow Crab",4.30512014714111,7.84578942801196,9.56933915211741,12.8027420722435
+"21","sds(btemp_scaled)","SD","effect of smooth","snow","Snow Crab",1.20520773890726,1.53134945971806,1.45514193983385,1.43430452826652
+"22","sigma_O","SD","spatial random effect","snow","Snow Crab",3.11518821497845,3.09556465579477,2.79310465868185,8.63098333627682
+"23","sigma_E","SD","AR1 random effect","snow","Snow Crab",1.76794316756623,1.77388928734604,1.77465911560449,NA
+"24","sigma_Z","SD","variation of SVC","snow","Snow Crab",0.000237322514934909,0.000810246997837404,NA,NA
+"25","sds(bdepth_scaled)","SD","effect of smooth","a_fhs","Adult Flathead Sole",0.943393096907703,1.00414481443939,0.899824594351866,0.923451621128705
+"26","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","a_fhs","Adult Flathead Sole",3.40832016205298,3.89770210344627,3.19058470350297,2.79633020696031
+"27","sds(btemp_scaled)","SD","effect of smooth","a_fhs","Adult Flathead Sole",1.58790313232006,2.06341214073941,1.30979077323245,1.29556198546461
+"28","sigma_O","SD","spatial random effect","a_fhs","Adult Flathead Sole",2.36744389091598,2.36959613379825,2.44135991000353,7.34217580411821
+"29","sigma_E","SD","AR1 random effect","a_fhs","Adult Flathead Sole",1.402866026961,1.40946830324604,1.53984269040867,NA
+"30","sigma_Z","SD","variation of SVC","a_fhs","Adult Flathead Sole",0.164262517979223,0.146846645131263,NA,NA
+"31","sds(bdepth_scaled)","SD","effect of smooth","j_fhs","Juv. Flathead Sole",1.71267182055849,1.69220890481827,1.46997685085897,1.21734826984506
+"32","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","j_fhs","Juv. Flathead Sole",1.91577512464299,4.52288584171545,6.00047095196708,7.21153768153397
+"33","sds(btemp_scaled)","SD","effect of smooth","j_fhs","Juv. Flathead Sole",1.97174859205204,3.971195785494,1.59854730721046,1.54742942686449
+"34","sigma_O","SD","spatial random effect","j_fhs","Juv. Flathead Sole",0.950342063806148,3.12395023962615,3.52999330280855,9.13857399331908
+"35","sigma_E","SD","AR1 random effect","j_fhs","Juv. Flathead Sole",4.11492433887969,2.80883673558413,1.6540281561338,NA
+"36","sigma_Z","SD","variation of SVC","j_fhs","Juv. Flathead Sole",0.214463337774676,0.286349536689049,NA,NA
+"37","sds(bdepth_scaled)","SD","effect of smooth","j_poll","Juv. Pollock",1.54016110457896,1.33070986271213,1.13695362552868,0.965670374304793
+"38","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","j_poll","Juv. Pollock",0.000808035497937837,6.89159659548331e-05,0.000985181973526732,2.53394904643193
+"39","sds(btemp_scaled)","SD","effect of smooth","j_poll","Juv. Pollock",1.64667274651276,1.22510245546549,1.07526761978057,1.09105549270028
+"40","sigma_O","SD","spatial random effect","j_poll","Juv. Pollock",1.4055722476965,1.31462784793104,1.31447868738172,3.56086809485675
+"41","sigma_E","SD","AR1 random effect","j_poll","Juv. Pollock",1.67680037649867,1.76083829963747,1.82704705418828,NA
+"42","sigma_Z","SD","variation of SVC","j_poll","Juv. Pollock",0.23920549558588,0.00168570221031552,NA,NA
+"43","sds(bdepth_scaled)","SD","effect of smooth","ej_poll","Early Juv. Pollock",1.88622322541849,1.87183093978769,1.84939538186234,1.90057907905232
+"44","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","ej_poll","Early Juv. Pollock",0.00146451609357701,1.07192459064276,1.47273890676192,1.64333506363184
+"45","sds(btemp_scaled)","SD","effect of smooth","ej_poll","Early Juv. Pollock",0.707493666629864,0.483784988966162,0.600800489902861,0.70342355829717
+"46","sigma_O","SD","spatial random effect","ej_poll","Early Juv. Pollock",1.271495791393,1.12114613723443,0.984199242087741,1.26652989230551
+"47","sigma_E","SD","AR1 random effect","ej_poll","Early Juv. Pollock",1.73802839583363,1.7545557729649,1.77413855155499,NA
+"48","sigma_Z","SD","variation of SVC","ej_poll","Early Juv. Pollock",9.01299253982475e-05,0.000756638220027474,NA,NA
+"49","sds(bdepth_scaled)","SD","effect of smooth","tanner","Tanner Crab",1.65240524063648,1.60272610491099,1.37464532021703,1.0056268610735
+"50","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","tanner","Tanner Crab",4.0754503397992,6.0224499207526,4.89480068386372,5.34993614663576
+"51","sds(btemp_scaled)","SD","effect of smooth","tanner","Tanner Crab",0.813570578260842,0.993945326857715,0.975556780768818,0.891617711190474
+"52","sigma_O","SD","spatial random effect","tanner","Tanner Crab",2.09155386171409,2.26043838497271,2.25693423637063,6.49161373352723
+"53","sigma_E","SD","AR1 random effect","tanner","Tanner Crab",1.66757945542728,1.66533880774931,1.67755307955936,NA
+"54","sigma_Z","SD","variation of SVC","tanner","Tanner Crab",0.182475194210484,0.488200304487792,NA,NA
+"55","sds(bdepth_scaled)","SD","effect of smooth","a_yfs","Adult Yellofin Sole",2.32556204758816,2.29049185380046,2.47916291880356,1.98771063042688
+"56","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","a_yfs","Adult Yellofin Sole",1.64660683850667,2.2100439388591,2.37633122747252,2.46492496428276
+"57","sds(btemp_scaled)","SD","effect of smooth","a_yfs","Adult Yellofin Sole",0.694264293044667,0.785360971224946,0.785696044780361,0.724715296110276
+"58","sigma_O","SD","spatial random effect","a_yfs","Adult Yellofin Sole",2.95963759928518,2.7815918474245,2.80450697055976,5.23445537496405
+"59","sigma_E","SD","AR1 random effect","a_yfs","Adult Yellofin Sole",1.43952894728198,1.38810194919302,1.51706484954911,NA
+"60","sigma_Z","SD","variation of SVC","a_yfs","Adult Yellofin Sole",0.130550424479419,0.000298122334207413,NA,NA
+"61","sds(bdepth_scaled)","SD","effect of smooth","j_yfs","Juv. Yellowfin Sole",2.30150395939984,2.3036726814578,2.47304643559663,2.24033346929993
+"62","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","j_yfs","Juv. Yellowfin Sole",1.38369834418978,1.72561997370532,2.0363051271503,1.96138002860014
+"63","sds(btemp_scaled)","SD","effect of smooth","j_yfs","Juv. Yellowfin Sole",0.911478191940578,1.02939919815918,0.862151516420855,0.859565488107885
+"64","sigma_O","SD","spatial random effect","j_yfs","Juv. Yellowfin Sole",3.41886342206213,3.19264933647126,3.10112755492372,4.71818910605845
+"65","sigma_E","SD","AR1 random effect","j_yfs","Juv. Yellowfin Sole",1.02966813608102,0.97710920063321,1.04389299273958,NA
+"66","sigma_Z","SD","variation of SVC","j_yfs","Juv. Yellowfin Sole",0.212205945963947,0.00184170261779189,NA,NA
+"67","sds(bdepth_scaled)","SD","effect of smooth","a_akplce","Adult Alaska Plaice",5.59907523890085,5.97914504263513,6.15919430450398,5.58693160220691
+"68","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","a_akplce","Adult Alaska Plaice",1.95754861407993,2.98886971302493,3.41039904602888,3.60013282237536
+"69","sds(btemp_scaled)","SD","effect of smooth","a_akplce","Adult Alaska Plaice",2.05463868826123,1.24724075506466,1.32897596378319,1.3032010489927
+"70","sigma_O","SD","spatial random effect","a_akplce","Adult Alaska Plaice",3.51968009387169,3.3791718391701,3.26802987957891,6.22537619663076
+"71","sigma_E","SD","AR1 random effect","a_akplce","Adult Alaska Plaice",1.1546023230062,1.1384215163391,1.11174671272803,NA
+"72","sigma_Z","SD","variation of SVC","a_akplce","Adult Alaska Plaice",0.159685199104509,0.201307873701581,NA,NA
+"73","sds(bdepth_scaled)","SD","effect of smooth","a_nrs","Adult N. Rock Sole",2.71178348547511,2.50767063711012,2.35139262026047,2.52164989394702
+"74","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","a_nrs","Adult N. Rock Sole",2.49333496413102e-06,0.532745480152268,3.93137401632806e-05,1.5794169070261
+"75","sds(btemp_scaled)","SD","effect of smooth","a_nrs","Adult N. Rock Sole",1.89464359501069,1.2050425271944,1.07771401435886,1.49861023302513
+"76","sigma_O","SD","spatial random effect","a_nrs","Adult N. Rock Sole",0.0144236190901424,7.93296889176077,7.94084271781016,1.604005919195
+"77","sigma_E","SD","AR1 random effect","a_nrs","Adult N. Rock Sole",15.9887795672584,10.4825674962707,9.87643223065255,NA
+"78","sigma_Z","SD","variation of SVC","a_nrs","Adult N. Rock Sole",2.12406405371251,0.422578915825441,NA,NA
+"79","sds(bdepth_scaled)","SD","effect of smooth","j_nrs","Juv. N. Rock Sole",2.8575088113529,2.70841486400854,2.72745821833792,3.37450253987746
+"80","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","j_nrs","Juv. N. Rock Sole",0.533987240641672,1.02597283595834,0.850167584322714,0.000807139804459527
+"81","sds(btemp_scaled)","SD","effect of smooth","j_nrs","Juv. N. Rock Sole",1.49081735837723,1.06640714941704,0.819054556690216,1.08757666287772
+"82","sigma_O","SD","spatial random effect","j_nrs","Juv. N. Rock Sole",7.35456967362468,7.07483377054121,6.81459927073529,1.95312767076812
+"83","sigma_E","SD","AR1 random effect","j_nrs","Juv. N. Rock Sole",8.90993238625733,6.28426932402208,6.2584679612805,NA
+"84","sigma_Z","SD","variation of SVC","j_nrs","Juv. N. Rock Sole",2.21908646157752,4.12403542292974e-08,NA,NA
+"85","sds(bdepth_scaled)","SD","effect of smooth","j_ak_sk","Juv. Alaska Skate",0.759920638201719,0.905282891863765,1.05105503442529,2.19603089097298
+"86","sds(bcurrentU_scaled,bcurrentV_scaled)","SD","effect of smooth","j_ak_sk","Juv. Alaska Skate",2.16147032426348,2.65227178783673,2.37487292750291,1.22546412112431
+"87","sds(btemp_scaled)","SD","effect of smooth","j_ak_sk","Juv. Alaska Skate",1.35144361491457,0.232266032831895,0.418773890992203,0.404093079515746
+"88","sigma_O","SD","spatial random effect","j_ak_sk","Juv. Alaska Skate",0.00773457368941788,1.56131565324623,1.40000324675168,1.83227220956277
+"89","sigma_E","SD","AR1 random effect","j_ak_sk","Juv. Alaska Skate",6.674104110877,5.98310285560315,6.00119867612908,NA
+"90","sigma_Z","SD","variation of SVC","j_ak_sk","Juv. Alaska Skate",0.892535235455483,0.0001119927042521,NA,NA
